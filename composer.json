@@ -1,0 +1,33 @@
+{
+    "name": "originphp/configurable",
+    "description": "OriginPHP Configurable",
+    "type": "library",
+    "keywords": [
+        "originphp",
+        "trait"
+    ],
+    "homepage": "https://www.originphp.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamiel Sharief",
+            "email": "js@originphp.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Origin\\Configurable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Origin\\Test\\Configurable\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
