@@ -48,7 +48,7 @@ trait StaticConfigurable
      */
     public static function config($key = null, $value = null)
     {
-        if (is_array($key) or func_num_args() === 2) {
+        if (is_array($key) || func_num_args() === 2) {
             return static::setConfig($key, $value);
         }
 
