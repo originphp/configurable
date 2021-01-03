@@ -1,7 +1,7 @@
 # Configurable
 
 ![license](https://img.shields.io/badge/license-MIT-brightGreen.svg)
-[![build](https://travis-ci.org/originphp/configurable.svg?branch=master)](https://travis-ci.org/originphp/configurable)
+[![build](https://github.com/originphp/configurable/workflows/CI/badge.svg)](https://github.com/originphp/configurable/actions)
 [![coverage](https://coveralls.io/repos/github/originphp/configurable/badge.svg?branch=master)](https://coveralls.io/github/originphp/configurable?branch=master)
 
 Configurable traits to add default config and setters and getters.
